@@ -9,7 +9,7 @@ my $infile = shift or die $usage;
 my $chr = '';
  
 if ($infile =~ /^(\d+)\_*.*\.info$/){
-   $chr = $1;
+   $chr = $chr1;
 } else {
    die "Could not work out chromosome from $infile\n";
 }
